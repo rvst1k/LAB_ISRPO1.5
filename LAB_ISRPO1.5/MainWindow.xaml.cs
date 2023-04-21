@@ -24,5 +24,12 @@ namespace LAB_ISRPO1._5
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Window2 window = new Window2(); 
+            window.Show();
+            this.Hide();
+        }
     }
 }
